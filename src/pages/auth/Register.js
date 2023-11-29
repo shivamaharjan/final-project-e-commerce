@@ -49,6 +49,7 @@ const inputs = [
     type: "password",
     placeholder: "********",
     required: true,
+    minLength: 6,
   },
 ];
 
