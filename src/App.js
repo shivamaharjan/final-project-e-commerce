@@ -12,6 +12,7 @@ import Category from "./pages/category/Category";
 import Profile from "./pages/profile/Profile"
 import PaymentOption from "./pages/payment-options/PaymentOption";
 import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   
