@@ -11,6 +11,7 @@ import Product from "./pages/product/Product";
 import Category from "./pages/category/Category";
 import Profile from "./pages/profile/Profile"
 import PaymentOption from "./pages/payment-options/PaymentOption";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
         <Route path="/customers" element={<Customers />}></Route>
         <Route path="/profile" element={<Profile />}></Route>
       </Routes>
+      <ToastContainer />
     </div>
   );
   
